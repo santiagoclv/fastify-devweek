@@ -12,6 +12,16 @@ It has support for middlewares from Express, and they run up to 30% faster than 
 
 [benchmarks](https://www.fastify.io/benchmarks/)
 
+## Demo
+
+```markdown
+npm install fastify-cli --global
+fastify generate ./hello-api --esm --standardlint
+cd hello-api
+npm install
+fastify print-routes app.js
+```
+
 
 ## Materialess
 
