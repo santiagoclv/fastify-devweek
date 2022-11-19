@@ -6,9 +6,9 @@ Basicly a fastify plugin encapsulate its functionalities and only another plugin
 
 Fastify generate a optimized data structure (radix-tree) that is used to match the routes. Using [find-my-way](https://github.com/delvedor/find-my-way) (support route params and wildcards)- Almost 20 times faster that the matchers from express.
 
-They created a lib [fast-json-stringify](https://github.com/fastify/fast-json-stringify) insted of using JSON.stringify to serialize (up to 5 times faster) what requires to specify the JSONSchema for output. Also it can be used for validations.
+Using [fast-json-stringify](https://github.com/fastify/fast-json-stringify) insted of using JSON.stringify to serialize what requires to specify the JSONSchema for output. Also it is used for validations and it is up to 5 times faster than JSON.stringify.
 
-It has support for middlewares from Express, and they run up to 30% faster than on express. It is because also another library that Fastify uses called [reusify](https://github.com/mcollina/reusify): This library gives the abitity to run functions without closures.
+It has support for middlewares from Express, and they run up to 30% faster than on express. It is because also another library that Fastify uses called [reusify](https://github.com/mcollina/reusify), this library gives the abitity to run functions without closures.
 
 [benchmarks](https://www.fastify.io/benchmarks/)
 
