@@ -26,5 +26,3 @@ fastify print-routes app.js
 ## Sources & Material
 
 [What if I told you that HTTP can be fast? → WebExpo](https://webexpo.net/prague2017/talk/what-if-i-told-you-that-http-can-be-fast/)
-
-[I would never use an ORM - Matteo Collina | NodeConf EU 2022](https://youtu.be/atABji4xqiI)
